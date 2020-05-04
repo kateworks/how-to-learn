@@ -1,0 +1,16 @@
+
+.feinman__link {
+  color: black;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+
+.feinman__link:hover {
+  color: blue;
+  border-bottom: 1px dotted blue;
+}
