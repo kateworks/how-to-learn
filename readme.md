@@ -1,4 +1,4 @@
-
+[Yandex](https://praktikum.yandex.ru)
 ![Яндекс.Практикум](https://github.com/kateworks/how-to-learn/blob/master/images/logo_place_header.svg)    
 **Курс: Веб-разработчик**   
      
