@@ -17,7 +17,3 @@
 Файловая структура проекта организована по методологии БЭМ
 с использованием подхода Nested
 
-
-
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
