@@ -1,6 +1,6 @@
 
 
-[Яндекс.Практикум] (https://github.com/kateworks/how-to-learn/blob/master/images/logo_place_header.svg)   
+[Яндекс.Практикум] (https://github.com/kateworks/how-to-learn/images/logo_place_header.svg)   
 Курс: Веб-разработчик   
 
 ### Проектная работа   
