@@ -5,7 +5,7 @@
 
 .cards {
   list-style-type: none;
-  width: 920px;
+  max-width: 920px;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;

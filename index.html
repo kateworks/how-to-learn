@@ -35,7 +35,7 @@
         alt="Иллюстрация: фрагмент картины Федора Решетникова 'Опять двойка!'"
         title="Фрагмент картины Федора Решетникова 'Опять двойка!'">
 
-      <div class="header__square-pic header__square-pic_type_rotated rotation"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <!-- **********************************************
@@ -147,23 +147,17 @@
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
 
         <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe 
-              width="515" height="316"
-              src="https://www.youtube.com/embed/5MgBikgcWnY" 
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-            </iframe>
-          </div>
+          <iframe class="video__iframe" 
+            src="https://www.youtube.com/embed/5MgBikgcWnY" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
 
-          <div class="video__iframe">
-            <iframe 
-              width="515" height="316"
-              src="https://www.youtube.com/embed/arj7oStGLkU" 
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
-            </iframe>
-          </div>
+          <iframe class="video__iframe" 
+            src="https://www.youtube.com/embed/arj7oStGLkU" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
         </div>
       </section>
 
@@ -378,31 +372,43 @@
 
         <ul class="resources__logo-zone">
           <li>
-            <img class="resources__logo"
-              src="./images/logo/resources-arzamas.svg"
-              alt="Логотип проекта Arzamas.academy"
-              title="Логотип проекта Arzamas.academy">
+            <a href="https://arzamas.academy/" 
+              target="_blank" lang="ru" class="fading"
+              title="Arzamas.academy - проект, посвященный истории культуры">
+                <img class="resources__logo"
+                  src="./images/logo/resources-arzamas.svg"
+                  alt="Логотип проекта Arzamas.academy">
+            </a>  
           </li>
 
           <li>
-            <img class="resources__logo"
-              src="./images/logo/resources-n1.svg"
-              alt="Логотип научно-популярного издания N+1"
-              title="Логотип научно-популярного издания N+1">
+            <a href="https://nplus1.ru/" 
+              target="_blank" lang="ru" class="fading"
+              title="N+1 - научно-популярное развлекательное издание">
+                <img class="resources__logo"
+                  src="./images/logo/resources-n1.svg"
+                  alt="Логотип научно-популярного издания N+1">
+            </a>
           </li>
 
           <li>
-            <img class="resources__logo"
-              src="./images/logo/resources-strelka.svg"
-              alt="Логотип института 'Стрелка'"
-              title="Логотип  института 'Стрелка'">
+            <a href="https://strelka.com/ru/home" 
+              target="_blank" lang="ru" class="fading"
+              title="Институт 'Стрелка'">
+                <img class="resources__logo"
+                  src="./images/logo/resources-strelka.svg"
+                  alt="Логотип института 'Стрелка'">
+            </a>
           </li>
 
           <li>
-            <img class="resources__logo"
-              src="./images/logo/resources-polka.svg"
-              alt="Логотип образовательного проекта 'Полка'"
-              title="Логотип образовательного проекта 'Полка'">
+            <a href="https://polka.academy/" 
+              target="_blank" lang="ru" class="fading"
+              title="«Полка» - образовательный проект, посвященный русской литературе">
+                <img class="resources__logo"
+                  src="./images/logo/resources-polka.svg"
+                  alt="Логотип образовательного проекта 'Полка'">
+            </a>
           </li>
         </ul>
     </section>

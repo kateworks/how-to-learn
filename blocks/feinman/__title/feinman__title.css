@@ -3,10 +3,9 @@
   font-size: 120px;
   font-weight: bold;
   line-height: 1.15;
-  width: 648px;
-  padding-top: 100px;
-  padding-bottom: 70px;
+  max-width: 648px;
   text-align: center;
+  padding-bottom: 70px;
   margin: 0 auto;
 }
 
