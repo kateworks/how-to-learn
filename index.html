@@ -2,51 +2,39 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Сайт о современных подходах к обучению (учебный проект)">
+	<meta name="author" content="Екатерина Пожидаева">
   <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
 
-<body class="root">
+<body>
   <div class="page">
 
-    <!-- **********************************************
-      Шапка сайта  
-    -->
-    <header class="header">
-      <img class="logo logo_place_header" 
-        src="./images/logo_place_header.svg" 
-        alt="Логотип Яндекс.Практикум"
-        title="Логотип Яндекс.Практикум">
+    <header class="section header">
+      <div class="header__block">
+        <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс.Практикум">
+        <h1 class="header__title slow-change">Научиться учиться</h1>
+        <p class="header__subtitle">
+          Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+          <a href="#description" class="header__link slow-change">Узнать &#8594;</a>
+        </p>
+        
+        <img 
+          class="header__main-illustration"
+          src="./images/header-image.png" 
+          alt="Иллюстрация: фрагмент картины Федора Решетникова 'Опять двойка!'"
+          title="Фрагмент картины Федора Решетникова 'Опять двойка!'">
 
-      <h1 class="header__title">Научиться учиться</h1>
-
-      <p class="header__subtitle">
-        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link fading" lang="ru"
-          title="Узнать про современные подходы к обучению">
-          Узнать &#8594;
-        </a>
-      </p>
-      
-      <img 
-        class="header__main-illustration"
-        src="./images/header-image.png" 
-        alt="Иллюстрация: фрагмент картины Федора Решетникова 'Опять двойка!'"
-        title="Фрагмент картины Федора Решетникова 'Опять двойка!'">
-
-      <div class="header__square-pic rotation"></div>
+        <!-- <div class="header__square-pic rotation"></div> -->
+      </div>
     </header>
 
-    <!-- **********************************************
-      Содержимое сайта  
-    -->
-    <main class="content">
+    <!-- <main class="content">
 
-      <!-- **********************************************
-        Блок description (Главные проблемы в обучении) 
-      -->
-      <section class="description">
+      <section id="description" class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
 
@@ -73,9 +61,6 @@
         </div>
       </section>
 
-      <!-- **********************************************
-        Блок techniques (Техники обучения) 
-      -->
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
@@ -139,9 +124,6 @@
         </ul>
       </section>
 
-      <!-- **********************************************
-        Блок video (Видео на TED) 
-      -->
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
@@ -161,9 +143,6 @@
         </div>
       </section>
 
-      <!-- **********************************************
-        Блок oakley (История Барбары Оакли) 
-      -->
       <section class="oakley">
         <div class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
@@ -179,9 +158,6 @@
         </div>
       </section>
 
-      <!-- **********************************************
-        Блок feinman (Метод Фейнмана) 
-      -->
       <section class="feinman">
         <h2 class="feinman__title">Метод Фейнмана</h2>
         <p class="feinman__subtitle">Выучить и не забыть.</p>
@@ -191,9 +167,6 @@
         </a>
       </section>
 
-      <!-- **********************************************
-        Блок digits (Цифры и факты) 
-      -->
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
@@ -247,9 +220,6 @@
         </div>
       </section>
 
-      <!-- **********************************************
-        Блок khan (Весь мир — школа) 
-      -->
       <section class="khan">
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
@@ -279,9 +249,6 @@
         </div>
       </section>
 
-      <!-- **********************************************
-        Блок kaufman (Принципы обучения от Джоша Кауфмана) 
-      -->
       <section class="kaufman">
 
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
@@ -361,12 +328,9 @@
         </div>
 
       </section>
-    </main>
+    </main> -->
 
-      <!-- **********************************************
-        Блок resources (Полезные ресурсы) 
-      -->
-      <section class="resources">
+      <!-- <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
 
@@ -411,12 +375,9 @@
             </a>
           </li>
         </ul>
-    </section>
+      </section> -->
 
-    <!-- **********************************************
-      Подвал сайта 
-    -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer__columns">
 
         <div class="footer__column footer__column_content_copyright">
@@ -500,7 +461,7 @@
         </nav>
       </div>
 
-    </footer>
+    </footer> -->
   </div>
 </body>
 </html>

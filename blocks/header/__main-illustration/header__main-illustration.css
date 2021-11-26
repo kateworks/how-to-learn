@@ -1,10 +1,18 @@
-
 .header__main-illustration {
-  width: 765px;
-  height: 608px;
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: 2;
+
+  object-fit: cover;
+  width: 60%;
+  max-width: 765px;
+  max-height: calc(min(608px, 100vh));
+}
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+  .header__main-illustration {
+    width: 100%;
+  }
 }
 

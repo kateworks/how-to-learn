@@ -1,11 +1,8 @@
-
 .header__link {
   color: #2f80ed;
   text-decoration: none;
 }
 
 .header__link:hover {
-  color: blue;
-  border-bottom: 1px dotted blue;
+  opacity: .7;
 }
-

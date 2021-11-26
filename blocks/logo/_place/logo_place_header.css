@@ -1,7 +1,18 @@
-
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
+  z-index: 10;
 }
+
+@media screen and (max-width: 500px) {
+  .logo_place_header {
+    left: 50%;
+    transform: translateX(-50%);    
+  }
+}
+
+
+
+
 
