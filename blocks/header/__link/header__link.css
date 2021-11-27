@@ -1,4 +1,6 @@
 .header__link {
+  position: relative;
+  z-index: 20;
   color: #2f80ed;
   text-decoration: none;
 }

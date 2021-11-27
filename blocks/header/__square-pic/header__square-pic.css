@@ -1,15 +1,35 @@
 
 .header__square-pic {
-  background-color: #2f80ed;
-  height: 568px;
-  width: 568px;
   position: absolute;
   right: 0;
   top: 64px;
+  bottom: initial;
   z-index: 1;
-  -webkit-transform: rotate(-15deg);
-  -moz-transform: rotate(-15deg);
-  -o-transform: rotate(-15deg);
-  -ms-transform: rotate(-15deg);
-  transform: rotate(-15deg);
+
+  max-width: 568px;
+  width: 60%;
+  background-color: #2f80ed;
 }
+
+.header__square-pic:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+  .header__square-pic {
+    top: initial;
+    bottom: 14px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape) {
+  .header__square-pic {
+    width: 50%;
+  }
+}
+
+
+

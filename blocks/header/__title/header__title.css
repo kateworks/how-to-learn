@@ -15,7 +15,7 @@
 @media screen and (max-width: 800px) {
   .header__title {
     align-self: flex-start;
-    margin-top: 100px;
+    margin-top: 90px;
     font-size: 78px;
   }
 }
@@ -23,12 +23,11 @@
 @media screen and (max-width: 800px) and (orientation: portrait) {
   .header__title {
     text-align: center;
+    font-size: 48px;
   }
 }
 
-@media 
-screen and (max-width: 500px),
-screen and (max-height: 500px) {
+@media screen and (max-width: 500px), screen and (max-height: 500px) {
   .header__title {
     font-size: 48px;
   }
