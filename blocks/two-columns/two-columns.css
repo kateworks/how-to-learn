@@ -1,11 +1,21 @@
-@import url(./__brief/two-columns__brief.css);
-@import url(./__main-text/two-columns__main-text.css);
-@import url(./__paragraph/two-columns__paragraph.css);
-@import url(./__span-accent/two-columns__span-accent.css);
-
 .two-columns {
+  box-sizing: border-box;
   width: 80%;
+  min-height: 100vh;
+  padding-top: 100px;
   display: flex;
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1050px) {
+  .two-columns {
+    width: 90%;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .two-columns {
+    flex-direction: column;
+  }
+}

@@ -1,8 +1,14 @@
-
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px;
+  flex: 1 1 784px;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+  .two-columns__main-text {
+    width: 100%;
+    flex: 1 1 30px;
+  }
 }
 
