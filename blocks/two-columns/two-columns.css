@@ -1,8 +1,7 @@
 .two-columns {
   box-sizing: border-box;
   width: 80%;
-  min-height: 100vh;
-  padding-top: 100px;
+  max-height: 100vh;
   display: flex;
   justify-content: space-between;
 }
@@ -10,7 +9,6 @@
 @media screen and (max-width: 1050px) {
   .two-columns {
     width: 90%;
-    padding-top: 50px;
   }
 }
 

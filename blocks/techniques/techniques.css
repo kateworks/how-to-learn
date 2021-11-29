@@ -1,4 +1,9 @@
 .techniques {
-  min-height: 100vh;
-  padding-top: 50px;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .techniques {
+    padding-top: 50px;
+  }
 }
