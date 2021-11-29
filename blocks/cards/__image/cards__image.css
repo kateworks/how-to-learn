@@ -1,7 +1,13 @@
-
 .cards__image {
+  display: block;
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  margin: 60px 40px 43px 40px;
+  margin: 60px auto 43px auto;
+}
+
+@media screen and (max-width: 800px) {
+  .cards__image {
+    margin-top: 40px;
+  }
 }
