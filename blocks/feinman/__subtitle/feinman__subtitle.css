@@ -1,9 +1,14 @@
-
 .feinman__subtitle {
   font-size: 36px;
   font-weight: normal;
-  line-height: 51px;
+  line-height: 1.4;
   text-align: center;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 650px) {
+  .feinman__subtitle {
+    font-size: 24px;
+  }
 }
 

@@ -1,0 +1,34 @@
+.feinman__block {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 867px 637px;
+}
+
+@media screen and (max-width: 1100px) {
+  .feinman__block {
+    background-size: 60% auto;
+  }
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  .feinman__block {
+    background-size: 50% auto;
+  }
+}
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+  .feinman__block {
+    background-size: 75% auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .feinman__block {
+    background-size: 100% auto;
+  }
+}

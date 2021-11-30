@@ -1,0 +1,9 @@
+.padding-top {
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .padding-top {
+    padding-top: 50px;
+  }
+}

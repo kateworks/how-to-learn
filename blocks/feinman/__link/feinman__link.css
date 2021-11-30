@@ -1,16 +1,30 @@
-
 .feinman__link {
-  color: black;
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+
+  text-decoration: none;
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
-  text-decoration: none;
-  position: absolute;
-  top: 50%;
-  right: 48px;
+  color: #2f80ed;
 }
 
 .feinman__link:hover {
-  color: blue;
-  border-bottom: 1px dotted blue;
+  opacity: 0.7;
 }
+
+@media screen and (max-width: 1030px) and (orientation: portrait){
+  .feinman__link {
+		bottom: 50%;
+		right: 50%;
+		transform: translateX(50%);    
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .feinman__link {
+    font-size: 24px;
+  }
+}
+
