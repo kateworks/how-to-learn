@@ -1,7 +1,8 @@
-
 .khan__book-container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap-reverse;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: flex-end;
+  row-gap: 30px;
+  column-gap: 48px;
 }
