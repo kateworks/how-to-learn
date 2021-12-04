@@ -1,6 +1,5 @@
 .feinman__title {
   max-width: 648px;
-  padding-top: 100px;
   padding-bottom: 70px;
   margin: 0 auto;
 
@@ -12,7 +11,6 @@
 
 @media screen and (max-width: 1300px) {
   .feinman__title {
-    padding-top: 50px;
     padding-bottom: 30px;
     font-size: 90px;
   }
@@ -20,7 +18,6 @@
 
 @media screen and (max-width: 900px) and (orientation: landscape) {
   .feinman__title {
-    padding-top: 20px;
     padding-bottom: 15px;
     font-size: 50px;
   }
@@ -28,7 +25,6 @@
 
 @media screen and (max-width: 650px) {
   .feinman__title {
-    padding-top: 20px;
     max-width: 90%;
     font-size: 50px;
   }

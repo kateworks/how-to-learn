@@ -1,7 +1,6 @@
 .two-columns {
   box-sizing: border-box;
   width: 80%;
-  max-height: 100vh;
   display: flex;
   justify-content: space-between;
 }
