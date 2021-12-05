@@ -1,8 +1,9 @@
-
-@import url(./__logo-zone/resources__logo-zone.css);
-@import url(./__logo/resources__logo.css);
-
 .resources {
-  padding: 100px 0 217px 0;
-  margin: 0;
+  padding-bottom: 200px;
+}
+
+@media screen and (max-width: 700px) {
+  .resources {
+    padding-bottom: 100px;
+  }
 }
