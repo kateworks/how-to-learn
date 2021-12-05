@@ -1,0 +1,7 @@
+.kaufman__block {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
