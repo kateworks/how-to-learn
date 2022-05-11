@@ -1,23 +1,33 @@
-@keyframes spinning {
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+@-webkit-keyframes spinning {
   from {
     -webkit-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    -o-transform: rotate(-15deg);
-    -ms-transform: rotate(-15deg);
-    transform: rotate(-15deg);
+            transform: rotate(-15deg);
   }
   to {
     -webkit-transform: rotate(345deg);
-    -moz-transform: rotate(345deg);
-    -o-transform: rotate(345deg);
-    -ms-transform: rotate(345deg);
-    transform: rotate(345deg);
+            transform: rotate(345deg);
+  }
+}
+
+@keyframes spinning {
+  from {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  to {
+    -webkit-transform: rotate(345deg);
+            transform: rotate(345deg);
   }
 }
 
 .rotation {
   -webkit-animation: spinning 20s linear infinite;
-  -moz-animation: spinning 20s linear infinite;
-  -o-animation: spinning 20s linear infinite;
-  animation: spinning 20s linear infinite;
+          animation: spinning 20s linear infinite;
 }

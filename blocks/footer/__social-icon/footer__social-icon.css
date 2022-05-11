@@ -1,7 +1,8 @@
-
 .footer__social-icon {
-  width: 16px;
-  height: 16px;
+  display: block;
+  width: 20px;
+  height: 20px;
   object-fit: cover;
+  object-position: center;
   margin-right: 10px;
 }
